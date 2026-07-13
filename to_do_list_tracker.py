@@ -67,14 +67,14 @@ for day in days :
     else:
         print("  No tasks")
 
-    print("MEDIUM :")
+    print("MEDIUM : ")
     if level_med:
         for task in level_med:
             print(f"  - {task}")
     else:
         print("  No tasks")
 
-    print("LOW :")
+    print("LOW : ")
     if level_low:
         for task in level_low:
             print(f"  - {task}")
